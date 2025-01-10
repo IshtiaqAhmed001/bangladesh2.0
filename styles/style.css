@@ -1,0 +1,57 @@
+/* shared styles  */
+body{
+    padding: 10px 160px;
+    
+        font-family: "Fira Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
+/* banner styles  */
+.banner-container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 60px;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: #C6E4D6;
+    padding: 80px 60px;
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.banner-subtitle{
+font-size: 20px;
+margin:0px;
+margin-bottom: 10px;
+color: gray;
+}
+
+.banner-title{
+font-size: 46px;
+font-weight: bold;
+margin: 0px;
+padding: 0px;
+margin-bottom: 12px;
+}
+
+.hero-btn{
+    background-color: #006A50;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+.hero-btn:hover{
+    background-color: #F30200;
+}
+
+.hero-img{
+    width: 50%;
+}
+
