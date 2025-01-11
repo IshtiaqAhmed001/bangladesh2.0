@@ -10,6 +10,14 @@ body{
     color: gray;
 }
 
+.hero-btn, .learn-more-btn, .read-more-btn{
+    background-color: #006A50;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
 /* banner styles  */
 .banner-container{
     display: flex;
@@ -40,13 +48,6 @@ padding: 0px;
 margin-bottom: 12px;
 }
 
-.hero-btn{
-    background-color: #006A50;
-    border-radius: 5px;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-}
 
 .hero-btn:hover{
     background-color: #F30200;
@@ -71,9 +72,24 @@ margin-bottom: 12px;
     margin-bottom: 10px;
 }
 
-.learn-more-btn{
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: #006A50;
+
+/* Recent news styles  */
+.news-card{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: white;
+    border-radius: 20px;
 }
+.news-thumbnail{
+    width: 30%;
+    border-radius: 20px;
+}
+.news-article{
+width: 70%;
+}
+
+.news-date , .news-paragraph{
+    font-size: 16px;
+}
+
