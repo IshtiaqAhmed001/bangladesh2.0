@@ -95,6 +95,17 @@ margin-bottom: 12px;
 }
 
 
+/* quote section styles */
+.quote-section{
+    padding: 24px 48px;
+    border-radius: 10px;
+
+    background: url('../assets/quote-bg.png'), white;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top left;
+}
+
 /* Recent news styles  */
 .news-card{
     display: flex;
