@@ -189,3 +189,24 @@ gap: 24px;
 .subscribe-btn{
     border-radius: 0px 5px 5px 0px;
 }
+
+/* footer styles  */
+footer{
+    text-align: center;
+}
+.footer-heading{
+    font-size: 32px;
+    margin: 0px auto;
+}
+footer hr{
+    width: 70%;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    margin: 32px auto;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
