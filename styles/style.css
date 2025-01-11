@@ -10,12 +10,16 @@ body{
     color: gray;
 }
 
-.hero-btn, .learn-more-btn, .read-more-btn, .donate-btn{
+.primary-btn{
     background-color: #006A50;
     border-radius: 5px;
     color: white;
     padding: 10px 30px;
     border: none;
+}
+
+button:hover{
+    background-color: #F30200;
 }
 
 /* banner styles  */
@@ -67,10 +71,19 @@ margin-bottom: 12px;
     background-color: white;
     border-radius: 10px;
     padding: 32px;
-    width: 33.33%;
 }
 .vision-card-title{
     margin-bottom: 10px;
+}
+
+.learn-more-btn-1{
+    background-color: #5490f5;
+}
+.learn-more-btn-2{
+    background-color: #09a15c;
+}
+.learn-more-btn-3{
+    background-color: #ffc239;
 }
 
 
