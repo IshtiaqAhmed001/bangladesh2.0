@@ -10,7 +10,7 @@ body{
     color: gray;
 }
 
-.hero-btn, .learn-more-btn, .read-more-btn{
+.hero-btn, .learn-more-btn, .read-more-btn, .donate-btn{
     background-color: #006A50;
     border-radius: 5px;
     color: white;
@@ -67,6 +67,7 @@ margin-bottom: 12px;
     background-color: white;
     border-radius: 10px;
     padding: 32px;
+    width: 33.33%;
 }
 .vision-card-title{
     margin-bottom: 10px;
@@ -93,3 +94,35 @@ width: 70%;
     font-size: 16px;
 }
 
+/* donate for bd section */
+.donate-for-bd{
+    text-align: center;
+}
+
+.donation-amount-container{
+    display: flex;
+gap: 24px;
+}
+
+.amount{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 25%;
+}
+.selected-amount{
+    background-color: #C6E4D6;
+}
+
+.amount:hover{
+    background-color: #006A50;
+    color: whitesmoke;
+}
+
+.other-amount{
+   width: 90%;
+   margin: 32px 0;
+   text-align: center;
+   padding: 15px 0;
+   border: none;
+}
