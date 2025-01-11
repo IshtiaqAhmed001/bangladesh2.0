@@ -94,6 +94,31 @@ margin-bottom: 12px;
     background-color: #ffc239;
 }
 
+/* opinion section styles  */
+.table-container{
+    padding: 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.table-container>table{
+    width: 100%;
+}
+
+td, th{
+    padding: 12px 24px;
+}
+
+table, td{
+    border: 1px solid #c6e4d6b2;
+    border-collapse: collapse;
+}
+
+select{
+    width: 100%;
+    background-color: #C6E4D6;
+    padding: 12.5px;
+}
 
 /* quote section styles */
 .quote-section{
